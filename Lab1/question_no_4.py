@@ -4,7 +4,7 @@ on the 24h digital clock? The program should print two numbers: the number of ho
 of minutes (between 0 and 59). For example, if N = 150, then 150 minutes have passed since midnight - i.e. now is
 2:30 am. So, the program should print 2 30.
 '''
-N = int(input("enter the number of minutes"))
+N = int(input("enter the number of minutes: "))
 hours = N//60
-minutes = N%60
-print (f'the time is {hours}:{minutes}')
+minutes = N % 60
+print(f'the time is {hours}:{minutes}')

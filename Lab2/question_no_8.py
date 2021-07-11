@@ -6,5 +6,5 @@ if len(a) <= 3:
     b = int(a[0]) + int(a[1]) + int(a[2])
     print(b)
 else:
-    print('Error')
+    print('Error! It is not a 3 digit number')
 
